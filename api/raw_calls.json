@@ -1,0 +1,25 @@
+{
+    "auth": "private_key_url",
+    "calls": {
+        "AAD": {
+            "doc_link": "https://mailboxlayer.com/documentation#make_api_request",
+            "initialized": true,
+            "method": "get",
+            "name": "Basic",
+            "params": {
+                "AAE": {
+                    "key": "email",
+                    "private": true,
+                    "value": "supporta@pilayer.com"
+                }
+            },
+            "publish_as": "data",
+            "rank": 0,
+            "ret_value": "api.1516434275441x434831550545657860.plugin_api.AAD",
+            "types": "{\"plugin_api.AAD\":{\"caption\":\"Basic\",\"fields\":{\"_p_email\":{\"ret_value\":\"text\",\"caption\":\"email\",\"path\":[\"email\"]},\"_p_did_you_mean\":{\"ret_value\":\"text\",\"caption\":\"did_you_mean\",\"path\":[\"did_you_mean\"]},\"_p_user\":{\"ret_value\":\"text\",\"caption\":\"user\",\"path\":[\"user\"]},\"_p_domain\":{\"ret_value\":\"text\",\"caption\":\"domain\",\"path\":[\"domain\"]},\"_p_format_valid\":{\"ret_value\":\"boolean\",\"caption\":\"format_valid\",\"path\":[\"format_valid\"]},\"_p_mx_found\":{\"ret_value\":\"boolean\",\"caption\":\"mx_found\",\"path\":[\"mx_found\"]},\"_p_smtp_check\":{\"ret_value\":\"boolean\",\"caption\":\"smtp_check\",\"path\":[\"smtp_check\"]},\"_p_catch_all\":{\"ret_value\":\"text\",\"caption\":\"catch_all\",\"path\":[\"catch_all\"]},\"_p_role\":{\"ret_value\":\"boolean\",\"caption\":\"role\",\"path\":[\"role\"]},\"_p_disposable\":{\"ret_value\":\"boolean\",\"caption\":\"disposable\",\"path\":[\"disposable\"]},\"_p_free\":{\"ret_value\":\"boolean\",\"caption\":\"free\",\"path\":[\"free\"]},\"_p_score\":{\"ret_value\":\"number\",\"caption\":\"score\",\"path\":[\"score\"]}}}}",
+            "url": "https://apilayer.net/api/check"
+        }
+    },
+    "human": "Mailboxlayer",
+    "token_param_name": "access_key"
+}
